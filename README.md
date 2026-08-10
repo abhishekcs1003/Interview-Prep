@@ -1,73 +1,128 @@
-# Welcome to your Lovable project
+#  Interview Prep
 
-## Project info
+A modern web application built to provide a simple, responsive, and user-friendly experience. This project was developed as a full-stack web development project using modern frontend technologies.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## 📌 About the Project
 
-## How can I edit this code?
+This project is designed with a focus on **clean UI, responsive design, and smooth user interaction**. It provides an intuitive interface and is structured to be easily maintainable and extendable.
 
-There are several ways of editing your application.
+The application was developed using **React, TypeScript, Tailwind CSS, and Vite**, with reusable components and a responsive design approach.
 
-**Use Lovable**
+## ✨ Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+* 📱 Fully responsive design
+* 🎨 Modern and clean user interface
+* ⚡ Fast development and build process with Vite
+* 🧩 Reusable React components
+* 🎯 Type-safe development using TypeScript
+* 💨 Utility-first styling with Tailwind CSS
+* 🔧 Easy to maintain and extend
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠️ Technologies Used
 
-**Use your preferred IDE**
+* **React** – Frontend library
+* **TypeScript** – Type-safe JavaScript
+* **Vite** – Development and build tool
+* **Tailwind CSS** – Styling
+* **shadcn/ui** – Reusable UI components
+* **HTML5 & CSS3** – Web structure and styling
+* **Git & GitHub** – Version control
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 📂 Project Structure
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+```text
+project/
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── assets/
+│   ├── App.tsx
+│   └── main.tsx
+├── package.json
+├── vite.config.ts
+├── tailwind.config.ts
+└── README.md
+```
 
-Follow these steps:
+## ⚙️ Getting Started
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Follow the steps below to run the project locally.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### 1. Clone the Repository
 
-# Step 3: Install the necessary dependencies.
-npm i
+```bash
+git clone <YOUR_GITHUB_REPOSITORY_URL>
+```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+### 2. Navigate to the Project
+
+```bash
+cd <PROJECT_NAME>
+```
+
+### 3. Install Dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the Development Server
+
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The application will be available at the local development URL provided by Vite.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🔨 Available Scripts
 
-**Use GitHub Codespaces**
+```bash
+npm run dev
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Runs the application in development mode.
 
-## What technologies are used for this project?
+```bash
+npm run build
+```
 
-This project is built with:
+Creates a production-ready build.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+```bash
+npm run preview
+```
 
-## How can I deploy this project?
+Previews the production build locally.
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+## 🎯 Learning Outcomes
 
-## Can I connect a custom domain to my Lovable project?
+Through this project, I worked with:
 
-Yes, you can!
+* Building responsive interfaces using React
+* Creating reusable components
+* Managing application structure using TypeScript
+* Designing modern UI using Tailwind CSS
+* Working with a modern frontend development workflow
+* Using Git and GitHub for version control
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 🚀 Future Improvements
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Some features that can be added in future versions include:
+
+* User authentication
+* Backend/API integration
+* Database integration
+* Improved performance optimization
+* Additional user-focused features
+* Deployment with a custom domain
+
+## 👨‍💻 Developer
+
+**Abhishek Chaurasiya**
+
+B.Tech – Computer Science & Engineering
+
+---
+
+⭐ If you find this project useful, consider giving the repository a star!
